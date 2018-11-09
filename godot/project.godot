@@ -1,0 +1,44 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=3
+
+[application]
+
+config/name="p0003"
+run/main_scene="res://Main.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+Settings="*res://scripts/Settings.gd"
+Logger="*res://scripts/Logger.gd"
+Utils="*res://scripts/Utils.gd"
+StateMachine="*res://scripts/StateMachine.gd"
+
+[display]
+
+window/size/width=1920
+window/size/height=1080
+window/stretch/mode="viewport"
+window/stretch/aspect="keep"
+
+[gui]
+
+theme/custom="res://default_theme.tres"
+theme/custom_font="res://art/spicy_rice_16.tres"
+
+[locale]
+
+translations=PoolStringArray( "res://localizations/Localizations.es.translation", "res://localizations/Localizations.en.translation" )
+locale_filter=[ 0, [ "en", "es" ] ]
+
+[rendering]
+
+environment/default_clear_color=Color( 0.215775, 0.262909, 0.308594, 1 )
+environment/default_environment="res://default_env.tres"
