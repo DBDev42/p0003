@@ -1,2 +1,17 @@
 "id";"es";"en"
 "TITLE";"Github game off jam";"Github game off jam"
+"NEWGAMELABEL";"Nueva partida";"New game"
+"CONTINUEGAMELABEL";"Continuar partida";"Continue game"
+"SETTINGSLABEL";"Ajustes";"Settings"
+"CREDITSLABEL";"Créditos";"Credits"
+"QUITLABEL";"Salir";"Quit"
+"CREDITS";"Gracias a Laura por el germen de la idea
+
+Todo lo demás hecho por @dbdev42";"Thanks Laura for the origin of the idea
+
+Everything else made by @dbdev42"
+"BACKLABEL";"Volver";"Back"
+"SETTINGSLANGUAGE";"Idioma";"Language"
+"SETTINGSLANGUAGEES";"Español";"Spanish"
+"SETTINGSLANGUAGEEN";"Inglés";"English"
+"QUITTHANKS";"Gracias por jugar";"Thanks for playing"

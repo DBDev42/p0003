@@ -36,3 +36,12 @@ func end(state, end):
 		start(_config[state.NAME][end])
 	else:
 		_state = null
+
+func change_scene(scene):
+	for child in root_node.get_children():
+		root_node.remove_child(child)
+	root_node.add_child(scene)
+
+## Function to stop everything and close the game
+func quit():
+	get_tree().quit()

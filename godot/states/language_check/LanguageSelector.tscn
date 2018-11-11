@@ -1,10 +1,9 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=3 format=2]
 
 [ext_resource path="res://states/language_check/LanguageCheck.gd" type="Script" id=1]
 [ext_resource path="res://default_theme.tres" type="Theme" id=2]
-[ext_resource path="res://art/spicy_rice_24.tres" type="DynamicFont" id=3]
 
-[node name="LanguageSelector" type="Node" index="0"]
+[node name="LanguageSelector" type="Node"]
 
 script = ExtResource( 1 )
 _sections_unfolded = [ "Theme" ]
@@ -95,7 +94,6 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-custom_fonts/font = ExtResource( 3 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -121,7 +119,6 @@ mouse_filter = 0
 mouse_default_cursor_shape = 0
 size_flags_horizontal = 1
 size_flags_vertical = 1
-custom_fonts/font = ExtResource( 3 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
